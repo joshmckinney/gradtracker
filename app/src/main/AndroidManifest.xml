@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.joshmckinney.gradtracker">
+
+    <application
+        android:allowBackup="false"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.TermList"/>
+        <activity android:name=".activities.TermDetail"/>
+        <activity android:name=".activities.TermAddEdit"/>
+        <activity android:name=".activities.CourseList" />
+        <activity android:name=".activities.CourseDetail" />
+        <activity android:name=".activities.CourseAddEdit" />
+        <activity android:name=".activities.AssessmentList" />
+        <activity android:name=".activities.AssessmentDetail" />
+        <activity android:name=".activities.AssessmentAddEdit" />
+        <activity android:name=".activities.MentorDetail"/>
+        <activity android:name=".activities.MentorAddEdit"/>
+        <activity
+            android:name=".activities.MainActivity"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".util.AlertReceiver" />
+    </application>
+
+</manifest>

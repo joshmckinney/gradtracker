@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/set_start_alarm"
+        android:title="Set start alarm"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/cancel_start_alarm"
+        android:title="Cancel start alarm"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/set_end_alarm"
+        android:title="Set end alarm"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/cancel_end_alarm"
+        android:title="Cancel end alarm"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/delete_course"
+        android:title="Delete Course"
+        app:showAsAction="never"/>
+</menu>
